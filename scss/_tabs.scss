@@ -1,0 +1,69 @@
+.tabs-container {
+  margin-top: 30px;
+}
+
+.tabs-menu {
+  height: 30px;
+}
+
+.tabs-menu li {
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  background-color: lightgray;
+  border: 1px solid lightgray;
+  border-right: none;
+  &:last-child {
+    border-right: 1px solid lightgray;
+  }
+}
+
+.tabs-menu li.current {
+  position: relative;
+  background-color: white;
+  border-bottom: none;
+  z-index: 5;
+}
+
+.tabs-menu li a {
+  padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.tabs-content {
+  border: 1px solid #d4d4d1;
+  background-color: #fff;
+  margin-bottom: 20px;
+  width: auto;
+}
+
+.tab-content {
+  padding: 20px;
+  display: none;
+}
+
+.tab-content.current {
+  display: block;
+}
+
+.question-container,
+.answer-container {
+  p {
+    padding: 5px 5px 5px 25px;
+  }
+}
+
+.buyer-question {
+  color: #3A87AD;
+  p {
+    background-color: #D9EDF7;
+  }
+}
+
+.seller-answer {
+  color: #468847;
+  p {
+    background-color: #DFF0D8;
+  }
+}

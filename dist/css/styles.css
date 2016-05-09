@@ -1,0 +1,121 @@
+h1 {
+  font-size: 40px;
+  line-height: 45px; }
+
+h2 {
+  font-size: 35px;
+  line-height: 40px; }
+
+h3 {
+  font-size: 25px;
+  line-height: 30px; }
+
+.container {
+  padding: 10px; }
+
+.product-name {
+  margin-bottom: 25px; }
+
+.product-main-image {
+  width: 100%;
+  max-width: 450px;
+  max-height: 650px;
+  min-width: 50px; }
+
+.product-price {
+  position: relative;
+  color: #8F0502;
+  margin: 20px 0; }
+  .product-price .decimals {
+    font-size: 15px;
+    position: absolute;
+    top: 0;
+    margin-left: 10px;
+    line-height: 15px; }
+
+.product-form-container {
+  margin: 20px 0; }
+
+.product-form {
+  margin: 10px 0; }
+  .product-form .ch-form-row {
+    padding: 0; }
+  .product-form .ch-form-actions {
+    margin: 0; }
+  .product-form label {
+    text-align: left;
+    width: auto; }
+  .product-form .product-form--notificacion {
+    margin: 10px 0; }
+
+.related-products-container {
+  margin: 20px 0; }
+  .related-products-container .title {
+    margin: 20px 0; }
+
+.related-product-image {
+  width: 110px;
+  height: 110px;
+  border: 1px solid black;
+  padding: 5px; }
+
+.ch-carousel-pages {
+  display: none; }
+
+.product-container {
+  border-bottom: 1px solid black;
+  padding-bottom: 30px; }
+
+.tabs-container {
+  margin-top: 30px; }
+
+.tabs-menu {
+  height: 30px; }
+
+.tabs-menu li {
+  height: 30px;
+  line-height: 30px;
+  float: left;
+  background-color: lightgray;
+  border: 1px solid lightgray;
+  border-right: none; }
+  .tabs-menu li:last-child {
+    border-right: 1px solid lightgray; }
+
+.tabs-menu li.current {
+  position: relative;
+  background-color: white;
+  border-bottom: none;
+  z-index: 5; }
+
+.tabs-menu li a {
+  padding: 10px;
+  text-decoration: none;
+  color: black; }
+
+.tabs-content {
+  border: 1px solid #d4d4d1;
+  background-color: #fff;
+  margin-bottom: 20px;
+  width: auto; }
+
+.tab-content {
+  padding: 20px;
+  display: none; }
+
+.tab-content.current {
+  display: block; }
+
+.question-container p,
+.answer-container p {
+  padding: 5px 5px 5px 25px; }
+
+.buyer-question {
+  color: #3A87AD; }
+  .buyer-question p {
+    background-color: #D9EDF7; }
+
+.seller-answer {
+  color: #468847; }
+  .seller-answer p {
+    background-color: #DFF0D8; }
